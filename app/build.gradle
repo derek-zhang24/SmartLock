@@ -6,7 +6,8 @@ android {
 
     defaultConfig {
         applicationId "com.example.android.smartlock"
-        minSdkVersion 23
+//        minSdkVersion 23
+        minSdkVersion 18 //For compatibility with Nexus 7 tablet
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"

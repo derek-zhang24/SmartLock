@@ -45,14 +45,7 @@ public class MainActivity extends AppCompatActivity
 
        /* LED = (Button) findViewById(R.id.LED);
         NFC = (Button) findViewById(R.id.NFC);
-        QR = (Button) findViewById(R.id.QR);
-        sendQR = (Button) findViewById(R.id.scanQR);
-        Finger = (Button) findViewById(R.id.Finger);
-        img = (ImageView) findViewById(R.id.imgView);
-        text = (TextView) findViewById(R.id.btResult);*/
-
-        //Bitmap icon = BitmapFactory.decodeResource(this.getResources(), R.drawable.bad);
-        //img.setImageBitmap(icon);
+        Finger = (Button) findViewById(R.id.Finger); */
 
         /*LED.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -66,19 +59,6 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 BTConnect("g");
-            }
-        });
-
-        QR.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                BTConnect("q");
-            }
-        });
-        sendQR.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                BTConnect("scan");
             }
         });
         Finger.setOnClickListener(new View.OnClickListener(){
@@ -154,7 +134,7 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    public void BTConnect(String msg){
+/*    public void BTConnect(String msg){
         BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         BluetoothSocketWrapper socket = null;
         final BluetoothConnector b;
@@ -205,6 +185,5 @@ public class MainActivity extends AppCompatActivity
             e.printStackTrace();
         }
         return null;
-    }
-
+    } */
 }
